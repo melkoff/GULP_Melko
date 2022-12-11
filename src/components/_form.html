@@ -1,0 +1,22 @@
+<section class="form">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center">
+        <img class="form__wave d-none d-md-block" src="../img/Wave-green.svg" alt="wave" />
+        <img class="form__wave d-block d-md-none" src="../img/Wave-green-mobile.svg" alt="wave" />
+        <form onsubmit="event.preventDefault();" class="form__data d-flex flex-column text-center" action="">
+          <legend>Записатися на навчання</legend>
+          <input id="name" placeholder="Ім’я" type="text" required />
+          <input placeholder="Номер телефону" type="tel" maxlength="10" data-intl-tel-input-id="0" required />
+          <div class="d-flex justify-content-center">
+            <button class="form__data-btn" type="submit">Надіслати</button>
+          </div>
+        </form>
+      </div>
+      <img class="form__people d-none d-md-block" src="../img/people.svg" alt="people" />
+      <div class="d-flex justify-content-center d-md-none">
+        <img class="form__people-mobile" src="../img/people.svg" alt="people" />
+      </div>
+    </div>
+  </div>
+</section>
